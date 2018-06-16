@@ -12,9 +12,94 @@
     <link rel="apple-touch-icon" href="icon.png">
 
     <link rel="stylesheet" href="../css/bulma.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    
 </head>
-<body>
-    <h1>It works</h1>
+
+<body class="hero is-info is-bold is-fullheight">
+    <div class="hero-head">
+        <header class="navbar">
+            <div class="container is-fluid">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <img src="../images/bird.png" alt="Logo">
+                    </a>
+                    <h1 class="navbar-item" id="website-title">
+                        Mostly
+                        <span class="blue-highlight">Blue</span> Birds
+                        <span class="blue-highlight">MN</span>
+                    </h1>
+                    <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </div>
+                <div id="navbarMenuHeroC" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item is-active" href="#">
+                            Home
+                        </a>
+                        <a class="navbar-item" href="featured.hmtml">
+                            Featured
+                        </a>
+                        <a class="navbar-item" href="about.html">
+                            About
+                        </a>
+                        <a class="navbar-item" href="contact.html">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <section class="hero-body">
+        <div class="container">
+            <div class="columns is-multiline is-mobile">
+                <div id="tree-swallow" class="column is-one-third">
+                    <p>Tree Swallow</p>
+                    <img class="bird-image" src="../images/tree-swallow.svg">
+
+                </div>
+                <div class="column is-one-third">
+                    <code>Barn Swallow</code>
+                </div>
+                <div class="column is-one-third">
+                    <code>Belted Kingfisher</code>
+                </div>
+                <div class="column is-two-thirds">
+                    <p>Select Any Bird To Learn More</p>
+                </div>
+                <div class="column is-one-third">
+                    <code>Blue Jay</code>
+                </div>
+                <div class="column is-one-third">
+                    <code>Purple Martin</code>
+                </div>
+                <div class="column is-one-third">
+                    <code>Indigo Bunting</code>
+                </div>
+                <div class="column is-one-third">
+                    <code>Eastern Bluebird</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="hero-foot container">
+        <p>
+            &copy 2018 Ross Weinstein
+        </p>
+        <nav>
+            <a class="is-active" href="#">Home</a>
+            <a href="featured.html">Featured</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
     <script src="../js/main.js"></script>
 </body>
 

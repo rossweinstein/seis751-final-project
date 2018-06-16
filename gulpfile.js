@@ -12,7 +12,7 @@ gulp.task('dev', ['html', 'css', 'js', 'images'], function () {
 
     gulp.watch('src/images/*', ['images']);
     gulp.watch('src/js/*.js', ['js-watch']);
-    gulp.watch('src/scss/*.scss', ['css']);
+    gulp.watch('src/css/*.css', ['css']);
     gulp.watch('src/html/*.html', ['html']).on('change', browserSync.reload);
 });
 
