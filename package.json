@@ -18,5 +18,8 @@
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "bulma": "^0.7.1"
   }
 }
