@@ -29,7 +29,7 @@
 }
 
 .bird-image {
-    height: 300px;
+    height: 250px;
     padding: 10px;
 }
 
@@ -42,3 +42,13 @@ p {
     font-family: 'Merriweather', serif;
     font-size: 25px;
 }
+
+#select {
+    height: 250px;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 125px;
+}
+
+
+
