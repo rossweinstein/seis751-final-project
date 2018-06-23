@@ -7,7 +7,7 @@
     <title>Blue Birds of MN</title>
     <meta name="description" content="Website dedicated to predominantly blue birds of Minnesota">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -46,92 +46,88 @@
     </div>
 
     <section class="hero-body">
-        <div class="container">
+        <div class="container has-text-centered ">
 
 
+            <div class="is-hidden-mobile">
+                <h1 class="title">Select Any Bird to Learn More</h1>
 
-            <div class="columns is-multiline is-hidden-touch">
-                <div id="tree-swallow" class="column is-one-third">
-                    <p>Tree Swallow</p>
-                    <img class="bird-image" src="../images/tree-swallow.svg">
-                </div>
-                <div class="column is-one-third">
-                    <p>Barn Swallow</p>
-                    <img class="bird-image" src="../images/barn-swallow.svg">
-                </div>
-                <div class="column is-one-third">
-                    <p>Belted Kingfisher</p>
-                    <img class="bird-image" src="../images/belted-kingfisher.svg">
-                </div>
-                <div class="column is-two-thirds">
-                    <p id="select">Select Any Bird To Learn More</p>
-                </div>
-                <div class="column is-one-third">
-                    <p>Blue Jay</p>
-                    <img class="bird-image" src="../images/blue-jay.svg">
-                </div>
-                <div class="column is-one-third">
-                    <p>Purple Martin</p>
-                    <img class="bird-image" src="../images/purple-martin.svg">
-                </div>
-                <div class="column is-one-third">
-                    <p>Indigo Bunting</p>
-                    <img class="bird-image" src="../images/indigo-bunting.svg">
-                </div>
-                <div class="column is-one-third">
-                    <p>Eastern Bluebird</p>
-                    <img class="bird-image" src="../images/eastern-bluebird.svg">
-                </div>
+                <img class="bird-image" id="tree-swallow" src="../images/tree-swallow.svg">
+                <img class="bird-image" id="eastern-bluebird" src="../images/eastern-bluebird.svg">
+                <img class="bird-image" id="belted-kingfisher" src="../images/belted-kingfisher.svg">
+                <img class="bird-image" id="blue-jay" src="../images/blue-jay.svg">
+                <img class="bird-image" id="barn-swallow" src="../images/barn-swallow.svg">
+                <img class="bird-image" id="indigo-bunting" src="../images/indigo-bunting.svg">
+                <img class="bird-image" id="purple-martin" src="../images/purple-martin.svg">
+                <h1 class="title" id="bird-name"></h1>
+            </div>
+        </div>
+
+        <div class="bird-slideshow is-hidden-tablet">
+            <!-- Bird SVG Slides -->
+            <div class="bird-slide">
+       
+                <img class="bird-image" src="../images/tree-swallow.svg">
+            </div>
+            <div class="bird-slide">
+               
+                <img class="bird-image" src="../images/barn-swallow.svg">
+            </div>
+            <div class="bird-slide">
+               
+                <img class="bird-image" src="../images/belted-kingfisher.svg">
+            </div>
+            <div class="bird-slide">
+              
+                <img class="bird-image" src="../images/blue-jay.svg">
+            </div>
+            <div class="bird-slide">
+        
+                <img class="bird-image" src="../images/purple-martin.svg">
+            </div>
+            <div class="bird-slide">
+               
+                <img class="bird-image" src="../images/indigo-bunting.svg">
+            </div>
+            <div class="bird-slide">
+               
+                <img class="bird-image" src="../images/eastern-bluebird.svg">
             </div>
 
-            <div class="bird-slideshow is-hidden-desktop">
-                <!-- Bird SVG Slides -->
-                <h2>Select Any Bird To Learn More</h2>
-                <div class="bird-slide">
-                    <p>Tree Swallow</p>
-                    <img class="bird-image" src="../images/tree-swallow.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Barn Swallow</p>
-                    <img class="bird-image" src="../images/barn-swallow.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Belted Kingfisher</p>
-                    <img class="bird-image" src="../images/belted-kingfisher.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Blue Jay</p>
-                    <img class="bird-image" src="../images/blue-jay.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Purple Martin</p>
-                    <img class="bird-image" src="../images/purple-martin.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Indigo Bunting</p>
-                    <img class="bird-image" src="../images/indigo-bunting.svg">
-                </div>
-                <div class="bird-slide">
-                    <p>Eastern Bluebird</p>
-                    <img class="bird-image" src="../images/eastern-bluebird.svg">
-                </div>
-
-            </div>
+        </div>
         </div>
     </section>
 
-    <footer class="hero-foot container">
-        <p>
-            &copy 2018 Ross Weinstein
-        </p>
-        <nav>
-            <a class="is-active" href="#">Home</a>
-            <a href="featured.html">Featured</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <footer class="hero-foot container is-fluid">
+
+        <nav class="navbar">
+
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <h1 class="website-title">&copy 2018 Ross Weinstein</h1>
+                </div>
+
+            </div>
+
+            <div id="navbarMenuHeroC" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item is-active" href="#">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="featured.hmtml">
+                        Featured
+                    </a>
+                    <a class="navbar-item" href="about.html">
+                        About
+                    </a>
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
     </footer>
     <script src="../js/main.js"></script>
+ 
 </body>
 
 </html>

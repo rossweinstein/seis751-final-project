@@ -25,22 +25,58 @@
 }
 
 .blue-highlight {
-    color: rgb(0,87,145);
+    color: rgb(0, 87, 145);
 }
 
 .bird-image {
-    height: 250px;
-    padding: 10px;
+    margin-left: -5px;
+    padding: 0;
+    border: 0;
+    filter: grayscale(80%) contrast(0%) brightness(0%);
+}
+
+@media (max-width: 999px) {
+    .bird-image {
+        height: 200px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1279px) {
+    .bird-image {
+        height: 250px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+    .bird-image {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1501px) {
+    .bird-image {
+        height: 350px;
+    }
+}
+
+.bird-slide {
+    height: 300px;
 }
 
 .bird-image:hover {
-    background-color: rgba(13,43,245,0.2);
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    background-color: rgba(13, 43, 245, 0.2);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    filter: none;
 }
 
 p {
     font-family: 'Merriweather', serif;
     font-size: 25px;
+}
+
+#bird-name {
+    margin-top: 25px;
+    height: 25px;
 }
 
 #select {
@@ -49,6 +85,3 @@ p {
     text-align: center;
     margin-top: 125px;
 }
-
-
-
