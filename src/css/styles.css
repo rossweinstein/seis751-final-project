@@ -64,7 +64,7 @@
 }
 
 .bird-image:hover {
-    background-color: rgba(13, 43, 245, 0.2);
+    background-color: black;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     filter: none;
 }
@@ -72,6 +72,20 @@
 p {
     font-family: 'Merriweather', serif;
     font-size: 25px;
+}
+
+.welcome {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.audubon {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: white;
+    font-style: italic;
+    margin-bottom: 40px;
 }
 
 #bird-name {
