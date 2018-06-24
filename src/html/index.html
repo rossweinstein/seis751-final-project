@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 
 <body class="hero is-info is-bold is-fullheight">
@@ -46,9 +47,8 @@
     </div>
 
     <section class="hero-body">
+
         <div class="container has-text-centered ">
-
-
             <div class="is-hidden-mobile">
                 <h1 class="title">A website devote to the mostly blue birds of Minnesota as categorized by the Audubon Society</h1>
 
@@ -61,40 +61,22 @@
                 <img class="bird-image" id="purple-martin" src="../images/purple-martin.svg">
                 <h1 class="title" id="bird-name">Select Any Bird to Learn More</h1>
             </div>
-        </div>
+      
 
-        <div class="bird-slideshow is-hidden-tablet">
-            <!-- Bird SVG Slides -->
-            <div class="bird-slide">
-       
-                <img class="bird-image" src="../images/tree-swallow.svg">
+        <div class="is-hidden-tablet">
+            <div class="columns has-text-centered  is-mobile">
+                <div class="column is-one-quarter" id="prev-bird">
+                        <span class="icon is-large is-vcentered">
+                                <i class="fas fa-chevron-left"></i>
+                              </span>
+                </div>
+                <div class="column is-half">
+                    <img id="current-bird-slide" src="">
+                </div>
+                <div class="column is-one-quarter is-vcentered">
+                    <button id="next-bird">Next Bird</button>
+                </div>
             </div>
-            <div class="bird-slide">
-               
-                <img class="bird-image" src="../images/barn-swallow.svg">
-            </div>
-            <div class="bird-slide">
-               
-                <img class="bird-image" src="../images/belted-kingfisher.svg">
-            </div>
-            <div class="bird-slide">
-              
-                <img class="bird-image" src="../images/blue-jay.svg">
-            </div>
-            <div class="bird-slide">
-        
-                <img class="bird-image" src="../images/purple-martin.svg">
-            </div>
-            <div class="bird-slide">
-               
-                <img class="bird-image" src="../images/indigo-bunting.svg">
-            </div>
-            <div class="bird-slide">
-               
-                <img class="bird-image" src="../images/eastern-bluebird.svg">
-            </div>
-
-        </div>
         </div>
     </section>
 
@@ -127,7 +109,7 @@
             </div>
     </footer>
     <script src="../js/main.js"></script>
- 
+
 </body>
 
 </html>
