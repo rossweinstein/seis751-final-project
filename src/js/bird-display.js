@@ -5,7 +5,7 @@ belterKingfisher.addEventListener('mouseover', function() {
 })
 
 belterKingfisher.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var barnSwallow = document.getElementById("barn-swallow");
@@ -15,7 +15,7 @@ barnSwallow.addEventListener('mouseover', function() {
 })
 
 barnSwallow.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var treeSwallow = document.getElementById("tree-swallow");
@@ -25,7 +25,7 @@ treeSwallow.addEventListener('mouseover', function() {
 })
 
 treeSwallow.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var blueJay = document.getElementById("blue-jay");
@@ -35,7 +35,7 @@ blueJay.addEventListener('mouseover', function() {
 })
 
 blueJay.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var indigoBunting = document.getElementById("indigo-bunting");
@@ -45,7 +45,7 @@ indigoBunting.addEventListener('mouseover', function() {
 })
 
 indigoBunting.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var purpleMartin = document.getElementById("purple-martin");
@@ -55,7 +55,7 @@ purpleMartin.addEventListener('mouseover', function() {
 })
 
 purpleMartin.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
 
 var easternBluebird = document.getElementById("eastern-bluebird");
@@ -65,5 +65,5 @@ easternBluebird.addEventListener('mouseover', function() {
 })
 
 easternBluebird.addEventListener('mouseout', function() {
-  document.getElementById('bird-name').innerHTML = "";
+  document.getElementById('bird-name').innerHTML = "Select Any Bird to Learn More";
 })
