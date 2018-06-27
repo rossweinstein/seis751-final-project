@@ -4,12 +4,13 @@ const concat = require('gulp-concat');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync');
 const imagemin = require('gulp-imagemin');
+const minifyjs = require('gulp-js-minify');
+const cleanCSS = require('gulp-clean-css');
 
 gulp.task('dev', ['html', 'css', 'js', 'images'], function () {
     browserSync.init({
         server: './dist'
     });
-
     gulp.watch('src/images/*', ['images']);
     gulp.watch('src/js/*.js', ['js-watch']);
     gulp.watch('src/css/*.css', ['css']);
@@ -27,6 +28,7 @@ gulp.task('css', function () {
             browsers: ['last 2 versions'],
             cascade: false
         }))
+        .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('dist/css'))
         .pipe(browserSync.stream())
 });
@@ -41,7 +43,7 @@ gulp.task('js', function () {
         .pipe(babel({
             presets: ['env']
         }))
-        .pipe(concat('main.js'))
+        .pipe(minifyjs())
         .pipe(gulp.dest('dist/js'))
 });
 
