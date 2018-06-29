@@ -64,17 +64,46 @@
     color: darkseagreen;
 }
 
+#bg { position: fixed; top: 0; left: 0; }
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+
+#bird-information {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 55%;
+    width: 40%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+
+.birds {
+    filter: grayscale(100%) contrast(0%) brightness(0%);
+}
+
 
 .featured {
     margin-top: 100px;
+    display: none;
 }
 
 #logo {
     height: 40px;
 }
 
+.btn {
+    border: none;
+}
+
 .active {
     font-weight: bold;
+}
+
+#big-bird-background {
+    position: relative;
 }
 
 .nav-link:hover {
@@ -85,6 +114,7 @@
     font-family: 'Merriweather', serif;
     font-size: 25px;
     color: white;
+    margin-left: 5px;
 }
 
 #navbarMenuHeroC {

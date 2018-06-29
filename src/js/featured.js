@@ -1,18 +1,21 @@
-(function () {
 
+(function() {
     if (!sessionStorage.getItem('bird')) {
         sessionStorage.setItem('bird', 'beltedKingfisher');
     }
 
     loadBirdInformation();
 
-    $('#media-belted-kingfisher').click(() => getBirdInfo('beltedKingfisher'));
-    $('#media-barn-swallow').click(() => getBirdInfo('barnSwallow'));
-    $('#media-tree-swallow').click(() => getBirdInfo('treeSwallow'));
-    $('#media-indigo-bunting').click(() => getBirdInfo('indigoBunting'));
-    $('#media-blue-jay').click(() => getBirdInfo('blueJay'));
-    $('#media-purple-martin').click(() => getBirdInfo('purpleMartin'));
-    $('#media-eastern-bluebird').click(() => getBirdInfo('easternBluebird'));
+    $('#option-belted-kingfisher').click(() => getBirdInfo('beltedKingfisher'));
+    $('#option-barn-swallow').click(() => getBirdInfo('barnSwallow'));
+    $('#option-tree-swallow').click(() => getBirdInfo('treeSwallow'));
+    $('#option-indigo-bunting').click(() => getBirdInfo('indigoBunting'));
+    $('#option-blue-jay').click(() => getBirdInfo('blueJay'));
+    $('#option-purple-martin').click(() => getBirdInfo('purpleMartin'));
+    $('#option-eastern-bluebird').click(() => {
+        console.log("Click");
+        getBirdInfo('easternBluebird');
+    });
 
     function getBirdInfo(bird) {
         if (sessionStorage.getItem('bird') !== bird) {
@@ -41,9 +44,8 @@
         document.getElementById('bird-eggs').textContent = bird.eggs;
         document.getElementById('bird-habitat').textContent = bird.habitat;
         document.getElementById('bird-diet').textContent = bird.diet;
-        $('#bird-call').attr('src', bird.call);
-        document.getElementById('bird-info-picture').src = bird.photo;
-        document.getElementById('bird-movie').src = bird.video;
+       // document.getElementById('bird-call').src = bird.call;
+       document.getElementById('bg').src
     }
 
     function cannotFindBird() {
@@ -56,7 +58,21 @@
         document.getElementById('bird-eggs').textContent = "N/A";
         document.getElementById('bird-habitat').textContent = "N/A";
         document.getElementById('bird-diet').textContent = "N/A";
-        document.getElementById('bird-info-picture').src = "";
-        document.getElementById('bird-movie').src = "";
+       // document.getElementById('bird-call').src = "";
     }
+
+    var theWindow = $(window); 
+    var $bg = $("#bg");
+    var aspectRatio = $bg.width() / $bg.height();
+
+    function resizeBg() {
+        if ((theWindow.width() / theWindow.height()) < aspectRatio) {
+            $bg.removeClass().addClass('bgheight');
+        } else {
+            $bg.removeClass().addClass('bgwidth');
+        }
+    }
+
+    theWindow.resize(resizeBg).trigger("resize");
+
 })();
