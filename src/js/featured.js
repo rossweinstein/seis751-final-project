@@ -1,5 +1,11 @@
 
 (function() {
+
+
+    var theWindow = $(window); 
+    var $bg = $("#bg");
+    var aspectRatio = 2560 / 1440;
+
     if (!sessionStorage.getItem('bird')) {
         sessionStorage.setItem('bird', 'beltedKingfisher');
     }
@@ -62,9 +68,7 @@
        document.getElementById('bg').src = "";
     }
 
-    var theWindow = $(window); 
-    var $bg = $("#bg");
-    var aspectRatio = $bg.width() / $bg.height();
+   
     console.log(aspectRatio);
 
     function resizeBg() {
