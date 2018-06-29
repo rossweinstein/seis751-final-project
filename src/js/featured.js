@@ -45,7 +45,7 @@
         document.getElementById('bird-habitat').textContent = bird.habitat;
         document.getElementById('bird-diet').textContent = bird.diet;
        // document.getElementById('bird-call').src = bird.call;
-       document.getElementById('bg').src
+       document.getElementById('bg').src = bird.photo;
     }
 
     function cannotFindBird() {
@@ -59,16 +59,21 @@
         document.getElementById('bird-habitat').textContent = "N/A";
         document.getElementById('bird-diet').textContent = "N/A";
        // document.getElementById('bird-call').src = "";
+       document.getElementById('bg').src = "";
     }
 
     var theWindow = $(window); 
     var $bg = $("#bg");
     var aspectRatio = $bg.width() / $bg.height();
+    console.log(aspectRatio);
 
     function resizeBg() {
+        console.log("resizing");
         if ((theWindow.width() / theWindow.height()) < aspectRatio) {
+            console.log("Height");
             $bg.removeClass().addClass('bgheight');
         } else {
+            console.log("Width");
             $bg.removeClass().addClass('bgwidth');
         }
     }
