@@ -17,8 +17,10 @@
     "gulp-babel": "^7.0.1",
     "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
     "gulp-imagemin": "^4.1.0",
-    "gulp-js-minify": "0.0.3"
+    "gulp-js-minify": "0.0.3",
+    "gulp-postcss": "^7.0.1"
   },
   "dependencies": {
     "bulma": "^0.7.1"
