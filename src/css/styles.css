@@ -69,72 +69,25 @@
 .bgheight { height: 100%; }
 
 
-#bird-information {
-    position: absolute;
-    z-index: 1000;
-    margin-left: 55%;
-    width: 40%;
-    background-color: white;
-    border-radius: 2px;
-}
 
 
 
-.birds {
-    filter: grayscale(100%) contrast(0%) brightness(0%);
-}
 
 
-.featured {
-    margin-top: 100px;
-    display: none;
-}
+
+
 
 #logo {
     height: 40px;
 }
 
-.btn {
-    --borderWidth: 3px;
-    background: #1D1F20;
-    position: relative;
-    border-radius: var(--borderWidth);
-  }
-  .btn:after {
-    content: '';
-    position: absolute;
-    top: calc(-1 * var(--borderWidth));
-    left: calc(-1 * var(--borderWidth));
-    height: calc(100% + var(--borderWidth) * 2);
-    width: calc(100% + var(--borderWidth) * 2);
-    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    border-radius: calc(2 * var(--borderWidth));
-    z-index: -1;
-    animation: animatedgradient 3s ease alternate infinite;
-    background-size: 300% 300%;
-  }
-  
-  
-  @keyframes animatedgradient {
-      0% {
-          background-position: 0% 50%;
-      }
-      50% {
-          background-position: 100% 50%;
-      }
-      100% {
-          background-position: 0% 50%;
-      }
-  }
 
-
+  
 .active {
     font-weight: bold;
 }
 
-#big-bird-background {
-    position: relative;
-}
+
 
 .nav-link:hover {
     text-decoration: underline;
@@ -159,11 +112,7 @@
     margin-top: 30px;
 }
 
-.bird-image, .bird-image-carousel{
-    padding: 0;
-    border: 0;
-    filter: grayscale(100%) contrast(0%) brightness(0%);
-}
+
 
 .bird-image-carousel {
     height: 500px;
@@ -187,9 +136,7 @@
     }
 }
 
-section {
-    margin-top: 150px;
-}
+
 
 @media (min-width: 1501px) {
     .bird-image {

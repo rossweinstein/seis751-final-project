@@ -1,0 +1,37 @@
+
+
+
+
+.about-page-content {
+    width: 100%;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.about-page-content > div {
+    width: 80%;
+    margin: auto;
+}
+
+.content img {
+    border: 1px black solid;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+footer {
+    background-color: black;
+}
+
+.credits {
+    margin-bottom: 80px;
+}

@@ -1,0 +1,54 @@
+
+#bg { position: fixed; top: 0; left: 0; z-index: 3;}
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+
+.birds {
+    filter: grayscale(100%) contrast(0%) brightness(0%);
+}
+
+.btn {
+    text-decoration: none;
+}
+
+#navbarMenuHeroC {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#bird-information {
+    position: absolute;
+    z-index: 1000;
+    margin-left: 55%;
+    width: 40%;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#big-bird-background {
+    position: relative;
+}
+
+#myToggleNav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#myToggleNav .current-page {
+    color: black;
+}
+
+.navbar {
+    background: none;
+}
+
+.featured {
+    margin-top: 100px;
+    display: none;
+}
+
+section {
+    margin-top: 150px;
+}

@@ -20,8 +20,17 @@ $('#col-purple-martin').click(() => setSessionStorage('purpleMartin'));
 $('#col-blue-jay').click(() => setSessionStorage('blueJay'));
 $('#col-eastern-bluebird').click(() => setSessionStorage('easternBluebird'));
 
-function setSessionStorage(birdName) {
-    sessionStorage.setItem('bird', birdName);
-  }
+$('#stacked-belted-kingfisher').click(() => setSessionStorage('beltedKingfisher'));
+$('#stacked-barn-swallow').click(() => setSessionStorage('barnSwallow'));
+$('#stacked-tree-swallow').click(() => setSessionStorage('treeSwallow'));
+$('#stacked-indigo-bunting').click(() => setSessionStorage('indigoBunting'));
+$('#stacked-purple-martin').click(() => setSessionStorage('purpleMartin'));
+$('#stacked-blue-jay').click(() => setSessionStorage('blueJay'));
+$('#stacked-eastern-bluebird').click(() => setSessionStorage('easternBluebird'));
 
-  $('.columned-image').click(() => window.location.href='../html/featured.html');
+function setSessionStorage(birdName) {
+  sessionStorage.setItem('bird', birdName);
+}
+
+$('.columned-image').click(() => window.location.href = '../html/featured.html');
+$('.stacked-bird-images').click(() => window.location.href = '../html/featured.html');

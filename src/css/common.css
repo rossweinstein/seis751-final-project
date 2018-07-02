@@ -26,18 +26,6 @@ html, body {
     width: 100%;
 }
 
-header, footer {
-    height: 8%;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    color: white;
-}
-
 body {
     background-color: black;
 }
@@ -47,24 +35,45 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     color: white;
+    z-index: 999;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-
-
-
-.website-name {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    align-self: flex-start;
+#copyright h2 {
+    font-size: 18px;
 }
 
-.current-page {
+
+#myToggleNav .current-page, .bottom-nav-mobile .current-page {
     color: rgb(0, 183, 233);
+}
+
+.navbar {
+    background-color: black;
+}
+
+.bottom-nav-mobile {
+    bottom: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.bottom-nav-mobile a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+#bottom-copyright h2 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: darkgray;
 }
 
 #website-title {
