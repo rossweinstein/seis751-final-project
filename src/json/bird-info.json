@@ -10,7 +10,7 @@
         "habitat": "Open country near water, marshes, meadows, lakes.",
         "diet": "Mostly insects, some berries.",
         "video": "https://www.youtube.com/embed/ijzHSkGd6w8",
-        "photo": "../images/tree_swallow.jpg",
+        "photo": "../images/tree-swallow-img.jpg",
         "call": "https://www.xeno-canto.org/322861/embed?simple=1"
     },
     "easternBluebird": {
@@ -24,7 +24,7 @@
         "habitat": "Open country with scattered trees; farms, roadsides.",
         "diet": "Mostly insects and berries.",
         "video": "https://www.youtube.com/embed/Mpcs8s5jIrQ",
-        "photo": "../images/eastern-bluebird.jpg",
+        "photo": "../images/eastern-bluebird-img.jpg",
         "call": "https://www.xeno-canto.org/179669/embed?simple=1"
     },
     "beltedKingfisher": {
@@ -38,7 +38,7 @@
         "habitat": "Streams, lakes, bays, coasts; nests in banks.",
         "diet": "Mostly small fish (smaller than 4-5\"), crayfish, frogs, tadpoles, aquatic insects.",
         "video": "https://www.youtube.com/embed/UUwgjKCcnxI",
-        "photo": "../images/belted_kingfisher.jpg",
+        "photo": "../images/belted-kingfisher-img.jpg",
         "call": "https://www.xeno-canto.org/347979/embed?simple=1"
     },
     "blueJay": {
@@ -52,7 +52,7 @@
         "habitat": "Oak and pine woods, suburban gardens, groves, towns.",
         "diet": "Omnivorous",
         "video": "https://www.youtube.com/embed/_cyzlxqtSMg",
-        "photo": "../images/blue-jay.jpg",
+        "photo": "../images/blue-jay-img.jpg",
         "call": "https://www.xeno-canto.org/234669/embed?simple=1"
     },
     "barnSwallow": {
@@ -66,7 +66,7 @@
         "habitat": "Open or semi-open land, farms, fields, marshes, lakes.",
         "diet": "Insects",
         "video": "https://www.youtube.com/embed/XgjEGXkpLic",
-        "photo": "../images/barn-swallow.jpg",
+        "photo": "../images/barn-swallow-img.jpg",
         "call": "https://www.xeno-canto.org/134349/embed?simple=1"
     },
     "indigoBunting": {
@@ -80,7 +80,7 @@
         "habitat": "Brushy pastures, bushy wood edges.",
         "diet": "Mostly seeds and insects.",
         "video": "https://www.youtube.com/embed/JJTaV95E9Qg",
-        "photo": "../images/indigo-bunting.jpg",
+        "photo": "../images/indigo-bunting-img.jpg",
         "call": "https://www.xeno-canto.org/233332/embed?simple=1"
     },
     "purpleMartin": {
@@ -94,7 +94,7 @@
         "habitat": "Towns, farms, semi-open country near water; in west, also mountain forest, saguaro desert.",
         "diet": "Insects",
         "video": "https://www.youtube.com/embed/uB2CwX13rDg",
-        "photo": "../images/purple-martin.jpg",
+        "photo": "../images/purple-martin-img.jpg",
         "call": "https://www.xeno-canto.org/317055/embed?simple=1"
     }
 }
