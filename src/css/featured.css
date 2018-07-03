@@ -1,54 +1,119 @@
 
-#bg { position: fixed; top: 0; left: 0; z-index: 3;}
-.bgwidth { width: 100%; }
-.bgheight { height: 100%; }
 
-.birds {
-    filter: grayscale(100%) contrast(0%) brightness(0%);
+@media only screen and (min-width: 992px) {
+    .navbar {
+        background: none;
+    }
+
+    .mobile-view {
+        display: none;
+    }
+
+
+    #bg { position: fixed; top: 0; left: 0; z-index: 3;}
+    .bgwidth { width: 100%; }
+    .bgheight { height: 100%; }
+
+    .birds {
+        filter: grayscale(100%) contrast(0%) brightness(0%);
+    }
+
+    .btn {
+        border-bottom: 10px solid rgb(0, 183, 233);
+    }
+
+    #navbarMenuHeroC {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #bird-information {
+        position: absolute;
+        z-index: 1000;
+        margin-left: 55%;
+        width: 40%;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    #big-bird-background {
+        position: relative;
+    }
+
+    #myToggleNav a {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+
+    #myToggleNav .current-page {
+        color: black;
+    }
+    .featured {
+        margin-top: 100px;
+        display: none;
+    }
+
+    section {
+        margin-top: 150px;
+    }
+
+    #logoDropdown {
+        width: 64px;
+        height: 64px;
+        align-self: center;
+    }
 }
 
-.btn {
-    text-decoration: none;
+.dropdown:hover #logoDropdown {
+    filter: invert(100%);
+    border-bottom: 4px solid rgb(255, 72, 22); 
 }
 
-#navbarMenuHeroC {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: white;
-}
+@media only screen and (max-width: 991px) {
+    #big-bird-background {
+        display: none;
+    }
 
-#bird-information {
-    position: absolute;
-    z-index: 1000;
-    margin-left: 55%;
-    width: 40%;
-    background-color: white;
-    border-radius: 2px;
-}
+    #mobile-bird-image {
+        width: 100%;
+    }
 
-#big-bird-background {
-    position: relative;
-}
+    .mobile-view {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 80px;
+        background-color: white;
+    }
 
-#myToggleNav a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: white;
-}
+    #bird-information {
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
-#myToggleNav .current-page {
-    color: black;
-}
+    #bird-information h3 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+    }
 
-.navbar {
-    background: none;
-}
+    #bird-information h3 span {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
 
-.featured {
-    margin-top: 100px;
-    display: none;
-}
+    #bird-information h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 24px;
+        text-align: center;
+    }
 
-section {
-    margin-top: 150px;
+    .mobile-view .bird-latin {
+      
+        font-style: italic;
+    }
+
 }

@@ -7,22 +7,24 @@
     <title>Blue Birds of MN</title>
     <meta name="description" content="Website dedicated to predominantly blue birds of Minnesota">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/featured.css">
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar fixed-top navbar-dark navbar-expand-md">
+        <nav class="navbar fixed-top navbar-dark navbar-expand-lg">
             <div class="container-fluid">
-                <div class="dropdown">
+
+
+                <div class="dropdown d-none d-lg-block">
                     <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
                         aria-expanded="false">
-                        <img id="logo" src="../images/bird.svg" alt="logo" />
+                        <img id="logoDropdown" src="../images/bird.svg" alt="logo" />
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                         <button class="dropdown-item" type="button" id="option-tree-swallow">
@@ -50,8 +52,11 @@
                                 <img src="../images/purple-martin.svg" height="64px">Purple Martin</button>
                     </div>
                 </div>
+
+
+                <img class="d-lg-none" id="logo" src="../images/bird.svg">
                 <div class="navbar-text" id="website-title">
-                        <h2>MN<span class="blue-highlight">Blue</span>Birds</h2>
+                    <h2>MN<span class="blue-highlight">Blue</span>Birds</h2>
                 </div>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myToggleNav" aria-controls="myToggleNav"
@@ -75,80 +80,111 @@
 
         <div class="shadow-lg" id="bird-information">
             <h3>
-                <span id="bird-name"></span>
+                <span class="bird-name"></span>
             </h3>
             <h3>
                 <i>
-                    <span id="bird-latin"></span>
+                    <span class="bird-latin"></span>
                 </i>
             </h3>
             <h3>Family:
-                <span id="bird-family"></span>
+                <span class="bird-family"></span>
             </h3>
             <h3>Height:
-                <span id="bird-height"></span>
+                <span class="bird-height"></span>
             </h3>
             <h3>Wingspan:
-                <span id="bird-wingspan"></span>
+                <span class="bird-wingspan"></span>
             </h3>
             <h3>Weight:
-                <span id="bird-weight"></span>
+                <span class="bird-weight"></span>
             </h3>
             <h3>Eggs:
-                <span id="bird-eggs"></span>
+                <span class="bird-eggs"></span>
             </h3>
             <h3>Habitat:
-                <span id="bird-habitat"></span>
+                <span class="bird-habitat"></span>
             </h3>
             <h3>Diet:
-                <span id="bird-diet"></span>
+                <span class="bird-diet"></span>
             </h3>
             <h3>Call:</h3>
-            
+
         </div>
+    </section>
+    <section class="mobile-view">
+    <img id="mobile-bird-image">
+    <div id="bird-information">
+            <h2><span class="bird-name"></span>-<span class="bird-latin"></span></h2>
+            <h3>Family:
+                <span class="bird-family"></span>
+            </h3>
+            <h3>Height:
+                <span class="bird-height"></span>
+            </h3>
+            <h3>Wingspan:
+                <span class="bird-wingspan"></span>
+            </h3>
+            <h3>Weight:
+                <span class="bird-weight"></span>
+            </h3>
+            <h3>Eggs:
+                <span class="bird-eggs"></span>
+            </h3>
+            <h3>Habitat:
+                <span class="bird-habitat"></span>
+            </h3>
+            <h3>Diet:
+                <span class="bird-diet"></span>
+            </h3>
+            <h3>Call:</h3>
+
+        </div>
+
+  
     </section>
 
     <footer>
-            <div class="container-fluid ">
-        
-              <div class="d-none d-lg-block">
+        <div class="container-fluid ">
+
+            <div class="d-none d-lg-block">
                 <nav class="navbar fixed-bottom navbar-dark navbar-expand-lg">
-                  <div class="navbar-text" id="copyright">
-                    <h2>&copy 2018 Ross Weinstein</h2>
-                  </div>
-                  <div class="collapse navbar-collapse" id="myToggleNav">
-                    <div class="navbar-nav ml-auto">
-                      <a class="nav-item nav-link" href="./home.html">Home</a>
-                      <a class="nav-item nav-link active current-page" href="#">Featured</a>
-                      <a class="nav-item nav-link" href="./about.html">About</a>
-                      <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                    <div class="navbar-text" id="copyright">
+                        <h2>&copy 2018 Ross Weinstein</h2>
                     </div>
-                  </div>
+                    <div class="collapse navbar-collapse" id="myToggleNav">
+                        <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link" href="./home.html">Home</a>
+                            <a class="nav-item nav-link active current-page" href="#">Featured</a>
+                            <a class="nav-item nav-link" href="./about.html">About</a>
+                            <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                        </div>
+                    </div>
                 </nav>
-              </div>
-        
-              <div class="d-lg-none">
+            </div>
+
+            <div class="d-lg-none">
                 <div class="bottom-nav-mobile">
-                  <p>
-                    <a  href="./home.html">Home</a>
-                  </p>
-                  <p>
-                    <a class="current-page" href="#">Featured</a>
-                  </p>
-                  <p>
-                    <a  href="./about.html">About</a>
-                  </p>
-                  <p>
-                    <a href="./contact.html">Contact</a>
-                  </p>
+                    <p>
+                        <a href="./home.html">Home</a>
+                    </p>
+                    <p>
+                        <a class="current-page" href="#">Featured</a>
+                    </p>
+                    <p>
+                        <a href="./about.html">About</a>
+                    </p>
+                    <p>
+                        <a href="./contact.html">Contact</a>
+                    </p>
                 </div>
                 <div id="bottom-copyright">
-                  <h2>&copy 2018 Ross Weinstein</h2>
+                    <h2>&copy 2018 Ross Weinstein</h2>
                 </div>
-              </div>
-        
             </div>
-          </footer>
+
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

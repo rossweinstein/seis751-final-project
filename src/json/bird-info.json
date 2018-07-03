@@ -9,7 +9,7 @@
         "eggs": "4-7, sometimes 2-8. Very pale pink at first, fading to white.",
         "habitat": "Open country near water, marshes, meadows, lakes.",
         "diet": "Mostly insects, some berries.",
-        "video": "https://www.youtube.com/embed/ijzHSkGd6w8",
+        "smallphoto": "../images/tree-swallow-sm.jpg",
         "photo": "../images/tree-swallow-img.jpg",
         "call": "https://www.xeno-canto.org/322861/embed?simple=1"
     },
@@ -23,7 +23,7 @@
         "eggs": "4-5, sometimes 3-7. Pale blue, unmarked; sometimes white.",
         "habitat": "Open country with scattered trees; farms, roadsides.",
         "diet": "Mostly insects and berries.",
-        "video": "https://www.youtube.com/embed/Mpcs8s5jIrQ",
+        "smallphoto": "../images/eastern-bluebird-sm.jpg",
         "photo": "../images/eastern-bluebird-img.jpg",
         "call": "https://www.xeno-canto.org/179669/embed?simple=1"
     },
@@ -37,7 +37,7 @@
         "eggs": "6-7, sometimes 5-8. White.",
         "habitat": "Streams, lakes, bays, coasts; nests in banks.",
         "diet": "Mostly small fish (smaller than 4-5\"), crayfish, frogs, tadpoles, aquatic insects.",
-        "video": "https://www.youtube.com/embed/UUwgjKCcnxI",
+        "smallphoto": "../images/belted-kingfisher-sm.jpg",
         "photo": "../images/belted-kingfisher-img.jpg",
         "call": "https://www.xeno-canto.org/347979/embed?simple=1"
     },
@@ -51,7 +51,7 @@
         "eggs": "4-5, sometimes 3-7. Greenish or buff, sometimes pale blue, spotted with brown and gray.",
         "habitat": "Oak and pine woods, suburban gardens, groves, towns.",
         "diet": "Omnivorous",
-        "video": "https://www.youtube.com/embed/_cyzlxqtSMg",
+        "smallphoto": "../images/blue-jay-sm.jpg",
         "photo": "../images/blue-jay-img.jpg",
         "call": "https://www.xeno-canto.org/234669/embed?simple=1"
     },
@@ -65,7 +65,7 @@
         "eggs": "4-5, sometimes 6, rarely 7. White, spotted with brown.",
         "habitat": "Open or semi-open land, farms, fields, marshes, lakes.",
         "diet": "Insects",
-        "video": "https://www.youtube.com/embed/XgjEGXkpLic",
+        "smallphoto": "../images/barn-swallow-sm.jpg",
         "photo": "../images/barn-swallow-img.jpg",
         "call": "https://www.xeno-canto.org/134349/embed?simple=1"
     },
@@ -79,7 +79,7 @@
         "eggs": "3-4, rarely 1-2. White to bluish-white, rarely with brown or purple spots.",
         "habitat": "Brushy pastures, bushy wood edges.",
         "diet": "Mostly seeds and insects.",
-        "video": "https://www.youtube.com/embed/JJTaV95E9Qg",
+        "smallphoto": "../images/indigo-bunting-sm.jpg",
         "photo": "../images/indigo-bunting-img.jpg",
         "call": "https://www.xeno-canto.org/233332/embed?simple=1"
     },
@@ -93,7 +93,7 @@
         "eggs": "4-5, sometimes 3-8. White.",
         "habitat": "Towns, farms, semi-open country near water; in west, also mountain forest, saguaro desert.",
         "diet": "Insects",
-        "video": "https://www.youtube.com/embed/uB2CwX13rDg",
+        "smallphoto": "../images/purple-martin-sm.jpg",
         "photo": "../images/purple-martin-img.jpg",
         "call": "https://www.xeno-canto.org/317055/embed?simple=1"
     }

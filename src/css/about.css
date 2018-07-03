@@ -9044,18 +9044,19 @@ nav a:hover {
 }
 
 .bottom-nav-mobile a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  
 }
 
 #bottom-copyright h2 {
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
-    color: darkgray;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  color: darkgray;
 }
 
 #website-title {
